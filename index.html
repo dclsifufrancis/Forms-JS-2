@@ -9,6 +9,25 @@
     <title>Form/JS</title>
 </head>
 <body>
-    <script src="script.css"></script>
+    <h1>Formulaire</h1>
+        <form id="general">
+            <div id="haut">
+                <div> Nom <input type="text" name="nom" id="nom"></div>
+                <div> Prénom <input type="text" name="prenom" id="prenom"></div>
+                <div> Date de naissance <input type="date" name="dateDeNaissance" id="dateDeNaissance"></div>
+            </div>
+            <div id="milieu">
+                <div>Homme<input type="radio" name="genre" id="hommme" value="homme"></div>
+                <div>Femme<input type="radio" name="genre" id="femme" value="femme"></div>
+            </div>
+            <div id="bas">
+                <div>email <input type="email" name="email" id="email" placeholder="exemple@exemple.fr"></div>
+                <div>Message <textarea type="text" maxlength="255" name="message" id="message" placeholder="Votre message, 255 caractères maximum" rows="5" cols="50"></textarea></div>
+                <div id="compteur">Restant : <div id="caracteres">/255.</div>
+            </div>  
+            <input type="button" value="ENVOYER" name="Envoyer" id="Envoyer"></div>
+        </form>
+
+    <script src="script.js"></script>
 </body>
 </html>

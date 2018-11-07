@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: purple;
+    background-color: cyan;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+form, #haut, #milieu #bas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    background-color: pink;
+    color: rgb(225, 0, 255);
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+}
+
+#text {
+    margin-top: 1rem;
+}
+
+#compteur {
+    font-family: cursive;
+    font-size: 1rem;
+}
